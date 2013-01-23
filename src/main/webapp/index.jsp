@@ -15,7 +15,7 @@
             <link rel="stylesheet" href="<c:url value="/gui/css/second.css" />" />
         </c:when>
         <c:otherwise>
-            <link rel="stylesheet" href="<c:url value="/gui/css/minified.${applicationScope.applicationVersion}.css" />" />
+            <link rel="stylesheet" href="<c:url value="/gui/css/minified.${version}.css" />" />
         </c:otherwise>
     </c:choose>
   </head>
@@ -33,7 +33,7 @@
             <script type="text/javascript" src="<c:url value="/gui/js/custom_script2.js" />"></script>
         </c:when>
         <c:otherwise>
-            <link rel="stylesheet" href="<c:url value="/gui/css/minified.${applicationScope.applicationVersion}.css" />" />
+            <script type="text/javascript" src="<c:url value="/gui/js/minified.${version}.js" />"></script>
         </c:otherwise>
     </c:choose>
 
