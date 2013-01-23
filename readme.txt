@@ -1,0 +1,1 @@
+for development set java opts in this way -Denvironment=development
